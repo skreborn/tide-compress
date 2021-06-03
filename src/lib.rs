@@ -12,4 +12,5 @@
 
 mod middleware;
 
-pub use middleware::CompressMiddleware;
+pub use async_compression::Level;
+pub use middleware::{CompressMiddleware, CompressionLevels};
